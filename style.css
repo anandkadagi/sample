@@ -1,0 +1,452 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+#value
+{
+    height: 90vh;
+  display: none;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  top: 50%;
+  left: 50%;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: none;
+}
+#value1
+{
+    height: 90vh;
+  display: none;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  top: 50%;
+  left: 50%;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: none;
+}
+
+.navbar
+{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    top: 0px;
+z-index: 1;
+background-color: white;
+}
+.navbar1
+{
+    width: 100%;
+    height: 8vh;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    position: sticky;
+    top: 0px;
+z-index: 1;
+background-color: white;
+}
+.logo
+{
+   
+    width: 20%;
+    height: 8vh;
+    display: flex;
+   align-items: center;
+   justify-content: center; 
+}
+.search
+{
+   
+    width: 60%;
+    height: 8vh;
+    display: flex;
+   align-items: center;
+   justify-content: center; 
+}
+.search input
+{
+   
+    width: 65%;
+    height: 70%;
+    border: none;
+    background-color: whitesmoke;
+    border-radius: 15px
+}
+.nav
+{
+  
+    width: 20%;
+    height: 8vh;
+    display: flex;
+   align-items: center;
+   justify-content: center; 
+}
+a{
+   
+    text-decoration: none;
+    color: black;
+}
+.container
+{
+   
+   
+    width: 100%;
+    height: 70vh;
+   background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(Images/computer.webp);
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   object-fit: contain;
+  display: flex;
+}
+.slogan
+{
+    display: flex;
+    width: 40%;
+    height: 100%;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container1
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.group
+{
+    width: 30%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    height: 20%;
+    
+}
+.group button
+{
+    padding: 4%;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.sub_container1
+{
+    height: 15%;
+    width: 100%;
+    border-bottom: 1px solid rgb(210, 210, 248);
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-around;
+}
+.sub_container1 ul
+{
+    display: flex;
+    list-style-type: none;
+}
+.sub_container1 ul li:first-child
+{
+    border-bottom: 1px solid;
+}
+.sub_container1 ul li
+{
+    
+    width: 15vh;
+    padding: 3%;
+    
+}
+.sub_container1 ul li a
+{
+    color: gray;
+}
+.sub_container1 ul li a:hover
+{
+    color: black;
+    font-weight: 800;
+   
+}
+.sub_container1 ul li:hover
+{
+    border-bottom: 1px solid;
+}
+.sub_container2
+{
+    height: max-content;
+    width: 90%;
+    display: flex
+}
+.sub1
+{
+    display: flex;
+    width: 70%;
+    height: max-content;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contain
+{
+    width: 90%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5% 0%;
+    border: 1px solid whitesmoke
+}
+.img
+{
+    width: 100%;
+    height: 50%;
+    background-image: url(Images/nature.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+.text
+{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+
+}
+.user{
+width: 100%;
+height: 10%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.sub2
+{
+    display: flex;
+    width: 30%;
+    height: 70vh;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 5%;
+}
+.btn_class
+{
+    height: 100%;
+    width: 50%;
+    /* float: right; */
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.btn_class button
+{
+    margin: 2% 4%;
+    padding: 2% 4%;
+    border: none;
+    font-weight: 800;
+    border-radius: 1vh;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.user input
+{
+    padding: 4%;
+    WIDTH: 85%;
+    border: none;
+    background-color: whitesmoke;
+    border-radius: 5p
+}
+.user h4 button
+{
+    padding: 3% 5%;
+    border-radius: 2vh;
+    border: none;
+    cursor: pointer;
+}
+.user h4 button:hover
+{
+   background-color: black;
+   color: white;
+}
+
+.hide_div
+{
+    display: none;
+    width: 100%;
+    height: 10vh;
+    border-bottom: 1px solid rgb(210, 210, 248);
+        
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    
+}
+#select
+{
+    display: none;
+}
+.hide_div select
+{
+    padding: 1vh 2vh;
+    font-size: 18px;
+    background-color: ghostwhite;
+    border-radius: 5px;
+}
+.sign1
+{
+    display: flex;
+    height: 100%;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.sign2
+{
+    display: flex;
+    width: 40%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sign2 h3
+{
+    position: relative; top: -22px;left: 44%;color: white;cursor: pointer;
+}
+.form
+{
+    width: 70%;
+    height: 35%;
+    display: grid;
+    background-color: gray;
+    grid-template-rows: repeat(4,1fr);
+    gap: 1px ;
+    border: 1px solid gray;
+}
+.form div
+{
+    
+width: 100%;
+height: 100%;
+
+}
+.form input
+{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: #e5e5e5;
+}
+.item
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+     gap: 1px;
+     
+}
+.btn
+{
+    margin: 5%;
+    width: 70%;
+    height: 6%;
+    border: none;
+    border-radius: 11px;
+    background-color: #2525b5;
+    color: white;
+    cursor: pointer;
+}
+.btn1
+{
+    margin: 1%;
+    width: 70%;
+    height: 6%;
+    border: 1px solid gray;
+    border-radius: 4px;
+    background-color: ghostwhite;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+@media  screen and (max-width:700px) {
+    
+    .navbar
+    {
+       display: none;
+    }
+    .navbar1
+    {
+        display: flex;
+    }
+    .sub_container1
+    {
+        display: none;
+        height: 0;
+    }
+    .sub2
+    {
+        display: none;
+    }
+    .sub1
+    {
+        width: 100%;
+    }
+    .slogan
+    {
+        width: 70%;
+    }
+    .hide_div
+    {
+        display: flex;
+    }
+    .group
+    {
+        display: flex;
+    }
+    #value
+    {
+width: 100%;
+height: 60vh;
+    }
+    #value1
+    {
+width: 100%;
+height: 60vh;
+    }
+    .sign2 h3
+    {
+        top: 0px;
+        left: 35%;
+    }
+    .nav
+    {
+        width: 25%;
+    }
+}
